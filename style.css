@@ -1,6 +1,32 @@
 body{
+    /* *********alterar font-family para Poppins*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 0;
-    background-color: #fdebd0;
+}
+
+/*itens da navegação menu principal*/
+.naveg {
+    text-decoration: none;
+}
+
+/*botão no header fora do menu*/
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    /* *********Alterar a cor do botão*/
+    background-color: #009900;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    /* *********Alterar a cor do botão para hover*/
+    background-color: #ffffff;
+    color: #009900;
 }
