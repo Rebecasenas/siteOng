@@ -132,6 +132,7 @@ main {
 }
 
 #left-lettuce  {
+    clip-path: inset(60px 45px 90px 0px);
     position: absolute;
     top: 65%;
     z-index: 3;
@@ -140,6 +141,7 @@ main {
 }
 
 #right-lettuce  {
+    clip-path: inset(70px 0px 105px 95px);
     position: absolute;
     top: 15%;
     right: 0%;
@@ -150,9 +152,11 @@ main {
 
 #left-lettuce:hover  {
     translate: 0% -2%;
+    transform: scale(102%);
 }
 
 
 #right-lettuce:hover  {
-    translate: 0% -2%;
+    translate: -1% -2%;
+    transform: scale(102%);
 }
