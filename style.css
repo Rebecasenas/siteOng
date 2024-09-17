@@ -2,7 +2,7 @@
 
 h1 {
     font-weight: 800;
-    font-size: 48px;
+    font-size: 3.2em;
 }
 
 
@@ -17,12 +17,12 @@ body {
 }
 
 #session-1-header {
-    height: 70em;
+    height: 98vh;
     color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 1em;
     background-image: url(https://img.freepik.com/fotos-gratis/legumes-frescos-e-frutas-alimentacao-saudavel-supermercado-de-varejo-organico-gerado-por-inteligencia-artificial_25030-64440.jpg?t=st=1726519524~exp=1726523124~hmac=8f13728cee512711d05dbf3a37390d831a20c22cdfa645d8ecd1f45a1b73f9a9&w=740);
     background-repeat: no-repeat;
     background-size: 100%; 
@@ -31,7 +31,7 @@ body {
 #session-1-header::after {
     content: "";
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: linear-gradient(0deg, rgba(20,32,22,1) 5%, rgba(0,212,255,0) 30%);;
     position: absolute;
     top: 50%;
@@ -48,7 +48,7 @@ a  {
 button {
     font-family: "Poppins" ;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 100;
     border: none;
     border-radius: 15px;
     background-color: #8fa639;
@@ -129,6 +129,9 @@ nav > ul > li {
 
 main {
     background-image: url(images/session-2-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #left-lettuce  {
@@ -159,4 +162,8 @@ main {
 #right-lettuce:hover  {
     translate: -1% -2%;
     transform: scale(102%);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
 }
