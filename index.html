@@ -7,37 +7,42 @@
     <title>Fruta Viva</title>
 </head>
 <body>
-
     <!--Cabeçaho contendo menu e logo-->
-    <header>
-        <!--Logo do site, ********substituir a imagem de simulação-->
-        <img src="http://lorempixel.com.br/100px/100px" alt="">
+    <header id="session-1-header">
+        <div id="menu-card">
 
-        <!--********* imagem no background a ser definida -->
-        <img src="" alt="">
 
-        <!--  ******** Adicionar tag e imagens alocadas nas laterais alocadas no header-->
 
-        <!--Alterar nomes genéricos das páginas e dos caminhos para as páginas-->
-        <nav>
-            <a class="naveg" href="./index.html">Início</a>
-            <a class="naveg" href="./sobreNos.html">Sobre nós</a>
-            <a class="naveg" href="./contato.html">Contato</a>
-            <a class="naveg" href="./produtos.html">Produtos</a>
-            <a class="naveg" href="./orcamento.html">Orçamento</a>
-        </nav>
+            <!--  ******** Adicionar tag e imagens alocadas nas laterais alocadas no header-->
 
-        <!--Titulo mais texto-->
-        <div>
-            <h1>A melhor decisão é investir na própria saúde.</h1>
-            <p>
-                Todos os dias, fazemos escolhas que impactam diretamente nosso bem-estar. Optar por uma vida saudável é mais do que uma decisão: é um compromisso com você mesmo. Pequenos hábitos podem transformar sua rotina, trazendo mais energia, vitalidade e longevidade.
-            </p>
+            <!--Alterar nomes genéricos das páginas e dos caminhos para as páginas-->
+            <nav>
+             <!--Logo do site, ********substituir a imagem de simulação-->
+                <img id="logo-image" src="images/logo.png">
+                <ul>
+                    <li><button id="home" ><a href="./index.html">Início</a></button></li>
+                    <li><a id="about-us" href="./sobreNos.html">Sobre nós</a></li>
+                    <li><a id="contact" href="./contato.html">Contato</a></li>
+                    <li><a id="products" href="./produtos.html">Produtos</a></li>
+                    <li><button id="budget"><a href="./orcamento.html">ORÇAMENTO</a></button></li>
+                </ul>
+            </nav>
 
-            <!--Botão - Usar clas "button-link" para atribuir visual de botão-->
-            <a class="button-link" href="./orcamento.html">MELHORAR</a>
+            <!--Titulo mais texto-->
+            <div id="text-card-content">
+                <h1>A melhor decisão é investir na própria saúde.</h1>
+                <p>
+                    Todos os dias, fazemos escolhas que impactam diretamente nosso bem-estar. Optar por uma vida saudável é mais do que uma decisão: é um compromisso com você mesmo. Pequenos hábitos podem transformar sua rotina, trazendo mais energia, vitalidade e longevidade.
+                </p>
+
+                <!--Botão - Usar clas "button-link" para atribuir visual de botão-->
+                <button><a class="button-link" href="./orcamento.html">MELHORAR</a></button>
+            </div>
         </div>
     </header>
+    <!-- **** Adicionar 2 imagens que ficarão na lateral-->
+    <img id="left-lettuce" src="images/left-alface.png">
+    <img id="right-lettuce" src="images/right-alface.png">
 
     <!--Conteúdo principal da página
     ********* aguardando conteúdo da análise de conteúdo
@@ -47,10 +52,6 @@
         <div>
             <!-- ***** trocar por imagens corretas----Imagem genérica para permitir elaboração do CSS-->
             <img src="http://lorempixel.com.br/200px/200px/3" alt="">
-
-            <!-- **** Adicionar 2 imagens que ficarão na lateral-->
-             <img src="" alt="">
-             <img src="" alt="">
 
             <!-- Titulo  -->
             <h1>Viva o frescor da natureza com a FrutaViva!</h1>
