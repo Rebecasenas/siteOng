@@ -167,3 +167,34 @@ main {
 ::-webkit-scrollbar {
     width: 0px;
 }
+
+#whatsapp-logo {
+    width: 50px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 4;
+}
+
+
+#half-orange {
+    transition: 0.75s ease-in-out;
+    transform: rotate(30deg);
+    top: 2em;
+}
+
+#half-orange:hover {
+    translate: 0px -15%;
+    transform: rotate(0deg);
+
+}
+
+#section-2-content {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-left: 30em;
+    width: 80%;
+    background: #bddb50;
+}
