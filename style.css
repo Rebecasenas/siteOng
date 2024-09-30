@@ -150,7 +150,7 @@ main {
     width: 12vw;
     user-select: none;
     -webkit-user-drag: none;
-    animation: left-lettuce-breathing 9s infinite ease-in-out;
+    animation: left-lettuce-breathing 19s infinite ease-in-out;
 }
 
 #right-lettuce  {
@@ -161,7 +161,7 @@ main {
     width: 17vw;
     user-select: none;
     -webkit-user-drag: none;
-    animation: right-lettuce-breathing 7s infinite ease-in-out;
+    animation: right-lettuce-breathing 15s infinite ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -179,24 +179,17 @@ main {
 
 #half-orange {
     width: 25vw;
-    transition: 0.75s ease-in-out;
-    transform: rotate(30deg);
     top: 2em;
     user-select: none;
     -webkit-user-drag: none;
 }
 
-#half-orange:hover {
-    transform: rotate(0deg);
-
-}
-
 #section-2-content {
     display: inline-flex;
-    padding-left: 12vw;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    padding-top: 2vw;
+    width: 70vw;
+    padding-top: 4vw;
 }
 
 #section-2-content > div {
@@ -284,7 +277,7 @@ P {
     align-items: center;
     color: #152117;
     margin-top: 30vw;
-    padding: 5vw 7vw;
+    padding-left: 4vw;
     width: 100%;
 }
 
