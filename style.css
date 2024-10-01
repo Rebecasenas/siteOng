@@ -314,27 +314,65 @@ P {
     justify-content: space-between;
     align-items: center;
     height: 19vw;
-    width: 14vw;
+    width: 13vw;
     background: #152117;
     border-radius: 3vw 3vw 3vw 3vw;
     color: #fff;
     font-weight: 600;
-    font-size: 1.25vw;
-    box-shadow: 0px 2px 10px 0px #00000034;
+    font-size: 2.25vw;
+    margin-bottom: 2vw;
 }
 
 .fruit-card-button{
-    width: 14vw;
+    width: 13vw;
     height: 4vw;
     border-radius: 0px 0px 2.9vw 2.9vw;
     background: #fff;
     color: #8fa639;
     font-weight: 600;
     font-size: 1.25vw;
+    transition: none;
 }
 
 .fruit-card-container > img {
     position: relative;
     translate: -0% -30%;
 
+}
+
+#lemon-card {
+    background: #428D0F;
+    position: relative;
+    top: 2vw;
+}
+
+#kiwi-card {
+    background: #97A930;
+    height: 21vw;
+    width: 14vw;
+    margin: 0vw 1.25vw;
+    position: relative;
+    top: 2vw;
+}
+
+#kiwi-card > a > button {
+    width: 14vw;
+}
+
+#watermelon-card {
+    background: #748F27;
+    position: relative;
+    top: 3vw;
+}
+
+#lemon-card > img {
+    width: 12vw;
+}
+
+#kiwi-card > img {
+    width: 16vw;
+}
+
+#watermelon-card > img {
+    width: 12vw;
 }
