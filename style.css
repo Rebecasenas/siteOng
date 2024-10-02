@@ -78,8 +78,8 @@ button:hover {
     z-index: 2;
     box-shadow: #00000052 0px 2px 2px, #ffffff45 0.55px -0.75px 0.75px;
     padding-top: 5vh;
-    padding-bottom: 10vh;
-    margin-top: 3vw;
+    padding-bottom: ;
+    margin-top: 0.5vw;
 }
 
 #text-card-content {
@@ -375,4 +375,28 @@ P {
 
 #watermelon-card > img {
     width: 12vw;
+}
+
+footer {
+    background: #152117;
+    margin: -20px;
+    padding: 3vw;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 0.70vw;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 1.1vw;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 0.5vw;
+}
+
+footer > div {
+    padding-left: 10vw;
 }
