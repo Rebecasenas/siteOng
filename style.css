@@ -386,17 +386,18 @@ footer {
     width: 100%;
     font-size: 0.70vw;
     font-weight: 200;
+    margin-top: 15vw;
 }
 
 h3 {
     font-size: 1.1vw;
 }
 
-li {
-    list-style: none;
-    padding-bottom: 0.5vw;
-}
-
 footer > div {
     padding-left: 10vw;
+}
+
+#site-navigation > p {
+    font-size: 0.7vw;
+    margin: -3px;
 }
