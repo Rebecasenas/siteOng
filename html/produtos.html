@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style.css">
     <title>Fruta Viva</title>
   </head>
   <body>
     <!--Cabeçaho contendo menu e logo-->
-    <header id="session-1-header">
+    <header id="session-1-header"  style="background-image: url(/images/products-background.png);">
       <!--Menu de navegação-->
       <div id="menu-card">
         <nav>
@@ -39,126 +39,145 @@
     </header>
 
     <!--Imagens laterais e central************ aguardando adição de fotos-->
-    <div>
-      <img src="caminho/para/imagem-do-produto.jpg" alt="" />
-      <img src="caminho/para/imagem-do-produto.jpg" alt="" />
-      <img src="caminho/para/imagem-do-produto.jpg" alt="" />
+    <div class="floating-images">
+      <img src="/images/products-left-apple.png"  id="products-left-apple" alt="" />
+      <img src="/images/products-center-pineapple.png"  id="products-center-pineapple" alt="" />
+      <img src="/images/products-right-orange.png" id="products-right-orange" alt="" />
     </div>
     <!--Conteúdo principal da página-->
-    <main>
+    <main style="background-image: url(/images/products-divisor.png); margin-top: -15px;">
+
+      <!--Tive que alterar a forma que o card foi montado ######################-->
       <!--Seção 1 frutas ***** em teste, aguardando Vini concordar!!!!-->
-      <h1>Frutas</h1>
       <div class="all-product">
+        <h1  style="position: absolute;transform: translateY(-15rem);">Frutas</h1>
         <div class="product">
-          <img src="http://lorempixel.com.br/200px/200px/1" alt="Abacate" />
-          <div class="product-name">Abacate</div>
-          <div class="product-price">R$ 9,99 kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/Image-abacate.png" style="transform: translateY(-60%);" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Abacate</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$9,99</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img
-            src="http://lorempixel.com.br/200px/200px/?2"
-            alt="Abacaxi perola"
-          />
-          <div class="product-name">Abacaxi pérola</div>
-          <div class="product-price">R$ 9,89 Uni.</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/abacaxi-perola.png" style="transform: translateY(-55%);" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Abacaxi pérola</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$9,89</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img src="http://lorempixel.com.br/200px/200px/?3" alt="Ameixa" />
-          <div class="product-name">Ameixa</div>
-          <div class="product-price">R$ 7,99 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/Image-ameixa.png" style="transform: translateY(-58%); width: 200px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Ameixa</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$7,99</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img
-            src="http://lorempixel.com.br/200px/200px/?4"
-            alt="Banana nanica"
-          />
-          <div class="product-name">Banana nanica</div>
-          <div class="product-price">R$ 8,46 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/Image-Banana-nanica.png" style="transform: translateY(-60%); width: 250px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Banana nanica</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$8,46</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img
-            src="http://lorempixel.com.br/200px/200px/?5"
-            alt="Banana prata"
-          />
-          <div class="product-name">Banana prata</div>
-          <div class="product-price">R$ 12,09 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/image-banana-prata.png" style="transform: translateY(-58%); width: 250px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Banana prata</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$12,09</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img src="http://lorempixel.com.br/200px/200px/?6" alt="Coco seco" />
-          <div class="product-name">Coco seco</div>
-          <div class="product-price">R$ 4,72 500g</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/image-coco-seco.png" style="transform: translateY(-65%); width: 280px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Coco seco</p>
+            <p class="product-messure">500g</p>
+            <p class="product-price">R$4,72</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img src="http://lorempixel.com.br/200px/200px/?7" alt="Goiaba" />
-          <div class="product-name">Goiaba</div>
-          <div class="product-price">R$ 13,19 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/image-goiaba.png" style="transform: translateY(-60%); width: 200px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Goiaba</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$13,19</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img
-            src="http://lorempixel.com.br/200px/200px/?8"
-            alt="Laranja lima"
-          />
-          <div class="product-name">Laranja lima</div>
-          <div class="product-price">R$ 12,27 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/image-laranja-lima.png" style="transform: translateY(-60%); width: 280px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Laranja lima</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$12,27</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/images/product-catalog/image-laranja-pera.png" style="transform: translateY(-65%); width: 260px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Laranja pera</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$10,06</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img
-            src="http://lorempixel.com.br/200px/200px/?9"
-            alt="Laranja pera"
-          />
-          <div class="product-name">Laranja pera</div>
-          <div class="product-price">R$ 10,06 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/image-limao-taiti.png" style="transform: translateY(-60%); width: 250px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Limão taiti</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$5,79</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img
-            src="http://lorempixel.com.br/200px/200px/?10"
-            alt="Limão taiti"
-          />
-          <div class="product-name">Limão taiti</div>
-          <div class="product-price">R$ 5,79 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/image-maça-fuji.png" style="transform: translateY(-60%); width: 250px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Maça fugi</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$17,99</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img src="http://lorempixel.com.br/200px/200px/?11" alt="Maçã Fugi" />
-          <div class="product-name">Maçã Fugi</div>
-          <div class="product-price">R$ 17,99 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/image-maça-gala.png" style="transform: translateY(-65%); width: 280px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Maça gala</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$18,07</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
 
         <div class="product">
-          <img src="http://lorempixel.com.br/200px/200px/?12" alt="Maçã gala" />
-          <div class="product-name">Maçã gala</div>
-          <div class="product-price">R$ 18,07 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
-        </div>
-
-        <div class="product">
-          <img
-            src="http://lorempixel.com.br/200px/200px/?13"
-            alt="Manga tommy"
-          />
-          <div class="product-name">Manga tommy</div>
-          <div class="product-price">R$ 12,41 Kg</div>
-          <a type="button" class="" href="/html/orcamento.html">COMPRAR</a>
+          <img src="/images/product-catalog/image-manga-tommy.png" style="transform: translateY(-58%); width: 250px;" alt="Abacate" />
+          <div class="product-card-content">
+            <p class="product-name">Manga tommy</p>
+            <p class="product-messure">kg</p>
+            <p class="product-price">R$12,41</p>
+            <a href="/html/orcamento.html"><button class="buy-button">COMPRAR</button></a>
+          </div>
         </div>
       </div>
 
