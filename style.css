@@ -408,7 +408,7 @@ footer > div {
     padding: 0px 5vw;
     color: #152117;
     margin-bottom: -30vw;
-    padding-top: 45vw;
+    padding-top: 900px;
 }
 
 .product {
@@ -448,6 +448,8 @@ footer > div {
 .product-messure {
     margin-left: 15px;
     margin-top: -5px;
+    font-weight: 300;
+    font-size: 0.90rem;
 }
 
 .product-price {
@@ -465,7 +467,7 @@ footer > div {
     height: 50px;
     width: 80%;
     border-radius: 100px;
-    margin-bottom: 15px;
+    margin-bottom: 0.25vw;
     font-weight: 800;
 }
 
@@ -512,3 +514,26 @@ footer > div {
     z-index: 1;
     width: 400px;
 }
+
+
+#our-values-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+
+}
+
+#our-values-text {
+    width: 950px;
+}
+
+#our-values-text > p {
+    font-weight: 300;
+}
+
+#our-values-content > img {
+    width: 30vw;
+}
+
