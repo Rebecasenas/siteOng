@@ -383,7 +383,7 @@ footer {
     width: 100%;
     font-size: 0.70vw;
     font-weight: 200;
-    margin-top: 15vw;
+    margin-top: 25vw;
 }
 
 h3 {
@@ -403,12 +403,12 @@ footer > div {
 .all-product {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 13vw;
+    row-gap: 13rem;
     column-gap: 30px;
     padding: 0px 5vw;
     color: #152117;
-    margin-bottom: -30vw;
-    padding-top: 900px;
+    padding-top: 800px;
+    margin-bottom: -15vw;
 }
 
 .product {
@@ -469,6 +469,7 @@ footer > div {
     border-radius: 100px;
     margin-bottom: 0.25vw;
     font-weight: 800;
+    font-size: 1.3em;
 }
 
 .buy-button:hover {
@@ -510,7 +511,7 @@ footer > div {
 #products-center-pineapple {
     right: 45%;
     top: 500px;
-    transform: translateY(-80%);
+    transform: translateY(-110%);
     z-index: 1;
     width: 400px;
 }
