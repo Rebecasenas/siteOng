@@ -27,11 +27,58 @@
             </li>
           </ul>
         </nav>
+
+        <!--Titulo e texto-->
+        <div id="text-card-content">
+          <h1>Entre em contato com o seu hortifrutti de confiança</h1>
+          <p>
+            Tem alguma dúvida, sugestão ou pedido especial? Estamos prontos para te ajudar! Preencha o formulário abaixo ou nos envie uma mensagem pelo WhatsApp. Queremos garantir que você tenha sempre os melhores produtos frescos à sua mesa.
+          </p>
+        </div>
       </div>
     </header>
 
     <!--Conteúdo principal da página-->
-    <main></main>
+    <main>
+
+      <!--Formulário-->
+      <h1>Contate-nos</h1>
+      <p>
+        Preencha o formulário com seus dados, e sua mensagem.
+      </p>
+      <!--PARA ONDE VAI? -->
+      <form action="paraOndeVai?">
+        <fieldset>
+          <img src="/images/forms-icons/person.png" alt="ícone representando uma pessoa">
+          <input type="text" id="name" name="name" placeholder="Nome completo">
+          <br>
+          <img src="/images/forms-icons/e-mail.png" alt="ícone representando um email em forma de carta">
+          <input type="email" id="email" name="email" placeholder="E-mail">
+          <br>
+          <img src="/images/forms-icons/cellphone.png" alt="ícone representando um celular">
+          <input type="tel" id="tel" name="tel" placeholder="Telefone"> 
+          <br>
+          <h2>Mensagem</h2>
+          <textarea name="message" id="message" placeholder="Deixe seu feedback aqui!"></textarea>
+        </fieldset>
+        <input type="submit">
+      </form>
+
+      <div class="map">
+        <div class="map-infos">
+          <h1>Nossa localização</h1>
+          <p>
+            CEP: 06110-100<br> Avenida das Flores - Km 18 <br> Osasco - SP, Brasil <br>CNPJ: 486.168.194/0001-10
+          </p>
+
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9285136771337!2d-46.79671392050741!3d-23.535073424201258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffa61b8acd51%3A0x886bfb1b61f10777!2sAv.%20das%20Flores%2C%20Osasco%20-%20SP%2C%2006110-100!5e0!3m2!1spt-BR!2sbr!4v1728836178168!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+    </main>
 
     <!--Rodapé -->
     <footer>
@@ -41,7 +88,7 @@
         <h3>Informações a respeito</h3>
         <div>
           <div>
-            CEP: 06110-00
+            CEP: 06110-100
             <br />
             Avenida das Flores - Km 18
             <br />
