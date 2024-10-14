@@ -575,3 +575,128 @@ footer > div {
     font-size: 1.2em;
     font-weight: 400;
 }
+
+
+#contact-main-session {
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #152117;
+    margin-top: 7vw;
+}
+
+#contact-us-left {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#contact-us-left > h1 {
+    margin-bottom: 0px;
+}
+
+#contact-us-left > p {
+    margin: 0px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+#localization {
+    margin-left: 4vw;
+}
+
+.map-container {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+#forms {
+    border: none;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 0px;
+}
+
+#forms > div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#forms > div > img {
+    width: 25px;
+    position: absolute;
+    transform: translate(30%);
+    margin-bottom: 10px;
+}
+
+#forms > button
+#name {
+    background: #E8E8E8;
+    height: 10px;
+    width: 20vw;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #152117;
+}
+
+#email {
+    background: #E8E8E8;
+    height: 10px;
+    width: 20vw;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #152117;
+}
+
+#tel {
+    background: #E8E8E8;
+    height: 10px;
+    width: 20vw;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #152117;
+}
+
+#message {
+    background: #E8E8E8;
+    height: 21vw;
+    width: 30vw;
+    font-size: 0.95rem;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #152117;
+}
+
+
+
+.map-infos > p {
+    font-size: 0.75rem;
+    margin-bottom: 2vw;
+}
+
+.map-infos > h1 {
+    margin-bottom: 0px;
+}
+
+#forms > h2 {
+    margin: 0px;
+    margin-top: 2vw;
+    margin-left: 15px;
+}
