@@ -88,6 +88,7 @@ button:hover {
 
 #text-card-content > h1 {
     width: 100%;
+    margin-top: 4rem;
 }
 
 
@@ -380,18 +381,18 @@ P {
 
 footer {
     background: #152117;
-    margin: -20px;
-    padding: 3vw;
     display: inline-flex;
     flex-direction: row;
     width: 100%;
     font-size: 0.70vw;
     font-weight: 200;
-    margin-top: 25vw;
+    margin-top: 100px;
+    padding-bottom: 2rem;
 }
 
 h3 {
-    font-size: 1.1vw;
+    font-size: 1.9vw;
+    font-weight: 800;
 }
 
 footer > div {
@@ -399,20 +400,20 @@ footer > div {
 }
 
 #site-navigation > p {
-    font-size: 0.7vw;
-    margin: 10px;
+    font-weight: 200;
+    font-size: 1vw;
+    margin: 0px;
 }
 
 
 .all-product {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     row-gap: 13rem;
     column-gap: 30px;
-    padding: 0px 5vw;
     color: #152117;
-    padding-top: 800px;
-    margin-bottom: -15vw;
+    padding-top: 20rem;
 }
 
 .product {
@@ -637,44 +638,69 @@ footer > div {
 }
 
 #name {
-    background: #E8E8E8;
+    transition: 0.2s ease-in;
+    background: #f5f5f5;
     height: 10px;
     width: 20vw;
     font-size: 1.1rem;
     border-radius: 100px;
     padding: 15px;
-    padding-left: 35px;
+    padding-left: 45px;
     margin-bottom: 10px;
     border: 1px solid #152117;
 }
 
+#name:hover {
+    transition: 0.2s ease-in;
+    outline: none;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0px 0px 1px 1px #428D0F;
+}
+
+#email:hover {
+    transition: 0.2s ease-in;
+    outline: none;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0px 0px 1px 1px #428D0F;
+}
+
+#tel:hover {
+    transition: 0.2s ease-in;
+    outline: none;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0px 0px 1px 1px #428D0F;
+}
+
+
 #email {
-    background: #E8E8E8;
+    transition: 0.2s ease-in;
+    background: #f5f5f5;
     height: 10px;
     width: 20vw;
     font-size: 1.1rem;
     border-radius: 100px;
     padding: 15px;
-    padding-left: 35px;
+    padding-left: 45px;
     margin-bottom: 10px;
     border: 1px solid #152117;
 }
 
 #tel {
-    background: #E8E8E8;
+    transition: 0.2s ease-in;
+    background: #f5f5f5;
     height: 10px;
     width: 20vw;
     font-size: 1.1rem;
     border-radius: 100px;
     padding: 15px;
-    padding-left: 35px;
+    padding-left: 45px;
     margin-bottom: 10px;
     border: 1px solid #152117;
 }
 
 #message {
-    background: #E8E8E8;
-    height: 21vw;
+    background: #f5f5f5;
+    height: 100%;
     width: 30vw;
     font-size: 0.95rem;
     border-radius: 20px;
@@ -698,4 +724,15 @@ footer > div {
     margin: 0px;
     margin-top: 2vw;
     margin-left: 15px;
+}
+
+#submit-input {
+    color: #f5f5f5;
+    background: #748F27;
+    font-size: 1vw;
+    font-weight: 500;
+    border: none;
+    border-radius: 100px;
+    width: 9vw;
+    height: 3vw;
 }
