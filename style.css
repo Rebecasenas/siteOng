@@ -204,54 +204,6 @@ P {
     font-weight: 500;
 }
 
-
-
-@keyframes right-lettuce-breathing {
-    0% {
-
-        translate: 0% 0%;
-         transform: scale(100%);
-    }
-
-
-    50% {
-
-        translate: 0% -2%;
-         transform: scale(102%);
-        right: -2%;
-    }
-
-
-    100% {
-
-        translate: 0% 0%;
-         transform: scale(100%);
-    }
-}
-
-@keyframes left-lettuce-breathing {
-    0% {
-
-        translate: 0% 0%;
-         transform: scale(100%);
-    }
-
-
-    50% {
-
-        translate: 0% -2%;
-         transform: scale(102%);
-         left: 0%;
-    }
-
-
-    100% {
-
-        translate: 0% 0%;
-         transform: scale(100%);
-    }
-}
-
 #left-lettuce-2  {
     position: absolute;
     top: 150%;
@@ -600,6 +552,7 @@ footer > div {
 }
 
 #contact-us-left > p {
+    font-size: 0.75rem;
     margin: 0px;
     margin-bottom: 15px;
     font-weight: 400;
@@ -700,7 +653,7 @@ footer > div {
 
 #message {
     background: #f5f5f5;
-    height: 100%;
+    height: 20rem;
     width: 30vw;
     font-size: 0.95rem;
     border-radius: 20px;
@@ -729,10 +682,66 @@ footer > div {
 #submit-input {
     color: #f5f5f5;
     background: #748F27;
-    font-size: 1vw;
+    font-size: 0.95rem;
     font-weight: 500;
     border: none;
     border-radius: 100px;
     width: 9vw;
-    height: 3vw;
+    height: 2.4em;
+}
+
+.fruit-card-button::after {
+    content: "";
+    width: 70%;
+    height: 4px;
+    background: #8fa639;
+    z-index: 3;
+    position: absolute;
+    transform: translate(-81%, 2.9vw);
+    border-radius: 100px;
+}
+
+#button-watermelon::after {
+    content: "";
+    width: 70%;
+    height: 4px;
+    background: #748f27;
+    z-index: 3;
+    position: absolute;
+    transform: translate(-85%, 2.9vw);
+    border-radius: 100px;
+}
+
+#button-lemon::after {
+    content: "";
+    width: 70%;
+    height: 4px;
+    background: #428d0f;
+    z-index: 3;
+    position: absolute;
+    transform: translate(-85%, 2.9vw);
+    border-radius: 100px;
+}
+
+
+
+#button-lemon:hover {
+    transition: 0.9s ease-out;
+    background-color: #e6ffd570;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#button-kiwi:hover {
+    transition: 0.9s ease-out;
+    background-color: #b7c082;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#button-watermelon:hover {
+    transition: 0.9s ease-out;
+    background-color: #b2ca6f;
+    color: #ffffff;
+    cursor: pointer;
 }
