@@ -337,11 +337,12 @@ footer {
     font-size: 0.70vw;
     font-weight: 200;
     margin-top: 100px;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
 }
 
 h3 {
-    font-size: 1.9vw;
+    position: relative;
+    font-size: 1.1rem;
     font-weight: 800;
 }
 
@@ -351,8 +352,8 @@ footer > div {
 
 #site-navigation > p {
     font-weight: 200;
-    font-size: 1vw;
-    margin: 0px;
+    font-size: 0.95rem;
+    margin: -2px;
 }
 
 
@@ -663,6 +664,7 @@ footer > div {
 
 
 .map-infos > p {
+    font-weight: 400;
     font-size: 0.75rem;
     margin-bottom: 2vw;
 }
@@ -742,4 +744,13 @@ footer > div {
     background-color: #b2ca6f;
     color: #ffffff;
     cursor: pointer;
+}
+
+.navigation-titles::before {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #428d0f;
+    position: absolute;
+    top: 115%;
 }
