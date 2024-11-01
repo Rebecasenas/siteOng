@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+    <script src="/script.js"></script>
     <title>Fruta Viva</title>
   </head>
   <body>
@@ -19,7 +24,11 @@
             <li><a href="/index.html">Início</a></li>
             <li><a id="products" href="/html/produtos.html">Produtos</a></li>
             <li><a id="about-us" href="/html/sobreNos.html">Sobre nós</a></li>
-            <li><button id="home"><a id="contact" href="/html/contato.html">Contato</a></button></li>
+            <li>
+              <button id="home">
+                <a id="contact" href="/html/contato.html">Contato</a>
+              </button>
+            </li>
             <li>
               <button id="budget">
                 <a href="/html/orcamento.html">ORÇAMENTO</a>
@@ -32,7 +41,10 @@
         <div id="text-card-content">
           <h1>Entre em contato com o seu hortifrutti de confiança</h1>
           <p>
-            Tem alguma dúvida, sugestão ou pedido especial? Estamos prontos para te ajudar! Preencha o formulário abaixo ou nos envie uma mensagem pelo WhatsApp. Queremos garantir que você tenha sempre os melhores produtos frescos à sua mesa.
+            Tem alguma dúvida, sugestão ou pedido especial? Estamos prontos para
+            te ajudar! Preencha o formulário abaixo ou nos envie uma mensagem
+            pelo WhatsApp. Queremos garantir que você tenha sempre os melhores
+            produtos frescos à sua mesa.
           </p>
         </div>
       </div>
@@ -40,48 +52,87 @@
 
     <!--Conteúdo principal da página-->
     <main id="contact-main-session">
-
       <!--Formulário-->
       <div id="contact-us-left">
         <h1>Contate-nos</h1>
-        <p>
-          Preencha o formulário com seus dados, e sua mensagem.
-        </p>
+        <p>Preencha o formulário com seus dados, e sua mensagem.</p>
         <!--PARA ONDE VAI? -->
-        <form action="paraOndeVai?">
+        <form id="contact-form">
           <fieldset id="forms">
             <div>
-              <img src="/images/forms-icons/person.png" alt="ícone representando uma pessoa">
-              <input type="text" id="name" name="name" placeholder="Nome completo" required>
+              <img
+                src="/images/forms-icons/person.png"
+                alt="ícone representando uma pessoa"
+              />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nome completo"
+                required
+              />
             </div>
             <div>
-              <img src="/images/forms-icons/e-mail.png" alt="ícone representando um email em forma de carta">
-              <input type="email" id="email" name="email" placeholder="E-mail" required>
+              <img
+                src="/images/forms-icons/e-mail.png"
+                alt="ícone representando um email em forma de carta"
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
             </div>
             <div>
-              <img src="/images/forms-icons/cellphone.png" alt="ícone representando um celular">
-              <input type="tel" id="tel" name="tel" placeholder="Telefone" required> 
+              <img
+                src="/images/forms-icons/cellphone.png"
+                alt="ícone representando um celular"
+              />
+              <input
+                type="tel"
+                id="tel"
+                name="tel"
+                placeholder="Telefone"
+                required
+              />
             </div>
             <h2>Mensagem</h2>
-            <textarea name="message" id="message" placeholder="Deixe seu feedback aqui!" required></textarea>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Deixe seu feedback aqui!"
+              required
+            ></textarea>
           </fieldset>
-          <input type="submit" id="submit-input" value="Enviar">
+          <input type="submit" id="submit-input" value="Enviar" />
         </form>
       </div>
-        <div id="localization">
-          <div class="map-infos">
-            <br>
-            <h1>Nossa localização</h1>
-            <p>
-              CEP: 06110-100<br> Avenida das Flores - Km 18 <br> Osasco - SP, Brasil <br>CNPJ: 486.168.194/0001-10
-            </p>
+      <div id="localization">
+        <div class="map-infos">
+          <br />
+          <h1>Nossa localização</h1>
+          <p>
+            CEP: 06110-100<br />
+            Avenida das Flores - Km 18 <br />
+            Osasco - SP, Brasil <br />CNPJ: 486.168.194/0001-10
+          </p>
 
-            <div class="map-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9285136771337!2d-46.79671392050741!3d-23.535073424201258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffa61b8acd51%3A0x886bfb1b61f10777!2sAv.%20das%20Flores%2C%20Osasco%20-%20SP%2C%2006110-100!5e0!3m2!1spt-BR!2sbr!4v1728836178168!5m2!1spt-BR!2sbr" width="630" height="550" style="border:0;" allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
-            </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9285136771337!2d-46.79671392050741!3d-23.535073424201258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffa61b8acd51%3A0x886bfb1b61f10777!2sAv.%20das%20Flores%2C%20Osasco%20-%20SP%2C%2006110-100!5e0!3m2!1spt-BR!2sbr!4v1728836178168!5m2!1spt-BR!2sbr"
+              width="630"
+              height="550"
+              style="border: 0"
+              allowfullscreen="none"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
           </div>
         </div>
+      </div>
     </main>
 
     <!--Rodapé -->
@@ -90,7 +141,7 @@
       <div>
         <!--Titulo formato 3-->
         <h3 class="navigation-titles">Informações a respeito</h3>
-        <div style="font-size: 0.95rem;">
+        <div style="font-size: 0.95rem">
           <div>
             CEP: 06110-100
             <br />
@@ -104,7 +155,16 @@
           Telefone: (11) 3889-9887
           <br /><br />
           E-mail: contato@frutaviva.com.br
-          <p style="font-weight: 300;color: #ffffff4b;font-size: 0.95em;margin-top: 40px;">&copy; Development by Proteam</p>
+          <p
+            style="
+              font-weight: 300;
+              color: #ffffff4b;
+              font-size: 0.95em;
+              margin-top: 40px;
+            "
+          >
+            &copy; Development by Proteam
+          </p>
         </div>
       </div>
 
@@ -125,6 +185,9 @@
       <!-- *****Qual o nome da nossa empresa ficticia ?????-->
     </footer>
     <script src="/script.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"
+    ></script>
   </body>
 </html>
