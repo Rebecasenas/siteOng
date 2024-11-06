@@ -19,6 +19,21 @@ body {
     overflow-x: hidden;
 }
 
+#session-404-header {
+    height: 98vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/erro/pagenotfound_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
 #session-1-header {
     height: 98vh;
     color: #ffffff;
@@ -64,6 +79,63 @@ button:hover {
     background-color: #bddb50;
     color: #152117;
     cursor: pointer;
+}
+
+#menu-card-error {
+    overflow: auto;
+    width: 90vw;
+    height: 8vw;
+    background: #ffffff0e;
+    backdrop-filter: blur(7px);
+    border-radius: 30px;
+    z-index: 2;
+    box-shadow: #00000052 0px 2px 2px, #ffffff45 0.55px -0.75px 0.75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+
+#error-404-content{
+    background: none;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#astronaut {
+    position: absolute;
+    top: 0%;
+    left: -35%;
+    animation: floating 16s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+
+    0% {
+        transform: translate(0%, 0%) rotateZ(-18deg);
+        transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+
+    50% {
+        transform: translate(-5%, -50%) rotateZ(18deg);
+        transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    100% {
+        transform: translate(0%, 0%) rotateZ(-18deg);
+        transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
 }
 
 
