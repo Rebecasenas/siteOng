@@ -25,11 +25,22 @@ body {
     display: flex;
     justify-content: center;
     background-image: url(images/erro/pagenotfound_background.png);
+    filter: brightness(50%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+#session-404-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, #204326 10%, rgb(21 33 23 / 0%) 50%);
+    pointer-events: none;
+}
 
 
 
@@ -65,7 +76,8 @@ a  {
 button {
     font-family: "Poppins" ;
     font-size: 0.95vw;
-    font-weight: 100;
+    font-weight: 400;
+    text-transform: uppercase;
     border: none;
     border-radius: 10px;
     background-color: #8fa639;
@@ -187,8 +199,9 @@ nav {
 nav > ul > li {
     display: inline-flex;
     padding-left: 4vw;
-    font-weight: 400;
-    font-size: 0.75vw;
+    font-weight: 600;
+    font-size: 0.95vw;
+    text-transform: uppercase;
 }
 
 
