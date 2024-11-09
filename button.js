@@ -6,7 +6,7 @@ const button = document.getElementById('budget');
             const colorChange = setInterval(() => {
                 button.style.backgroundColor = colors[colorIndex];
                 colorIndex = (colorIndex + 1) % colors.length;
-            }, 1000);
+            }, 500);
 
             button.addEventListener('mouseout', function() {
                 clearInterval(colorChange);
