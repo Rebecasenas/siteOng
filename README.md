@@ -1,33 +1,27 @@
+# 🥭 Site FrutaViva (Projeto ONG)
 
-# Site FrutaViva
+Um site estático simples criado em **HTML, CSS e JavaScript** que apresenta uma página informativa para uma ONG fictícia chamada *FrutaViva*. O projeto está pronto para *visualização local* ou para *publicação usando GitHub Pages*.
 
-## Introdução
+---
 
+## 🌐 📌 Demonstração (Funcional)
 
-## Funcionalidades do Código em JavaScript
-
-<!--Adicionar imagens pertine-->
-<div>
-
-</div>
-
-## Detalhes Técnicos
-
-### Como Executar
-Para visualizar o projeto, basta abrir o arquivo `index.html` em qualquer navegador web. 
-
-### Tecnologias Utilizadas
-- HTML5
-- CSS3
-- JavaScript
+![Demonstração do site](assets/demo.gif)
 
 
-## Como Contribuir
-Este projeto é público e você pode contribuir de diversas maneiras:
-- Faça um fork do repositório.
-- Clone o repositório para o seu ambiente local.
-- Implemente melhorias ou correções.
-- Envie um pull request descrevendo suas alterações.
 
-## Licença
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+
+💡 O site é composto de arquivos estáticos.  
+
+Para **ver o site funcionando**, você pode:
+
+✔️ Abrir o arquivo `index.html` no seu navegador (Chrome, Firefox, Edge).  
+
+---
+
+## 🚀 📥 Como rodar o site localmente
+
+1. **Clone este repositório**
+
+```bash
+git clone https://github.com/Rebecasenas/siteOng.git
